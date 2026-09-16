@@ -19,14 +19,9 @@
         left: 0px;
       }  
       body {
- background-image: url("/workspaces/jordanbacon8.github.io/fsd-projects/platformer/images/paper.gif");
- background-color: #cccccc00;
- -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-      }
-    
+ background-image: url("fsd-projects/platformer/images/paper.gif");
+ background-color: #cccccc;
+}
 
 
       .board {
@@ -96,7 +91,7 @@
           moveBoxTo(positionX,positionY); 
           positionX = positionX + speed;
           if(positionX > boardWidth){
-          speed = speed * -1; 
+          speed *= -1; 
           } else if(positionX < 0){
           speed *= -1; 
           }
@@ -117,7 +112,7 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
-          positionX += 0;
+          positionX += randNum;
           changeBoxText(points)
           points ++;
           speed = 3 * points + 10; 
