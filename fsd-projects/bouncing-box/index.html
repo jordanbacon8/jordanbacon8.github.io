@@ -19,8 +19,13 @@
         left: 0px;
       }  
       body {
- background-image: url("/workspaces/jordanbacon8.github.io/fsd-projects/platformer/images/paper.gif");
+ background-image: url("/fsd-projects/platformer/images/paper.gif");
  background-color: #cccccc;
+ -webkit-background-size: cover; 
+ -moz-background-size: cover; 
+ -o-background-size: cover; 
+ background-size: cover; 
+
 }
 
 
@@ -83,6 +88,7 @@
           var speedY = 10;
           var boardHeight = jQuery(window).height();
           var randNum = Math.random() * 100;
+          
         /**
          * This Function will be called 20 times/second.
          * Each time it is called, it should move the Box to a new location.
@@ -119,7 +125,7 @@
           speed = 3 * points + 10; 
           positionY +=0 ; 
           speedY = 3 * points + 10; 
-
+        
         }
 
 
