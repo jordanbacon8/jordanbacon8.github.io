@@ -41,7 +41,7 @@ var init = function (window) {
         */
 
         // TODO 7 : Use a loop to create multiple circles
-        for (var i = 0; i < 50; i++){
+        for (var i = 0; i < 100; i++){
             drawCircle() 
         } // creates 50 circles with less repetive code
 

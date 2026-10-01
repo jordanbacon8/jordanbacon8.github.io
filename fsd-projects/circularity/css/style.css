@@ -48,11 +48,12 @@
     color: white;
 } 
 body {
-                background: url(fsd-projects/platformer/images/Lighting.jpg) no-repeat center center fixed;
+                background: url(/fsd-projects/platformer/images/Lighting.jpg) no-repeat center center fixed;
                 background-color: #cccccc;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
                 background-size: cover;
             }
+            
 
