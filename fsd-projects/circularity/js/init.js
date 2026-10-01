@@ -29,15 +29,8 @@ var init = function (window) {
             physikz.addRandomVelocity(circle, canvas, 5, 5); // applies ramdom velocity to the circle
             view.addChild(circle); //add the circle to the view
             circles.push(circle); //stores the circle in the circles array
-            body {
-                background: url("YourImageFileNameGoesHere") no-repeat center center fixed;
-                background-color: #cccccc;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-            }
         } 
+        
         // TODO 3 : Call the drawCircle() function
         /*
         drawCircle() // creates circle
