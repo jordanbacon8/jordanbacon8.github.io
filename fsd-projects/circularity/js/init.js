@@ -75,8 +75,8 @@ var init = function (window) {
             // TODO 8 / TODO 9 : Iterate over the array
            
             for(var i = 0; i < circles.length; i++){
-            physikz.updatePosition(circles[i]);//update the position of the circle
-            game.checkCirclePosition(circles[i]); //check position of circles
+                physikz.updatePosition(circles[i]);//update the position of the circle
+                game.checkCirclePosition(circles[i]); //check position of circles
 
             }
 
@@ -109,8 +109,8 @@ var init = function (window) {
                 circle.y = canvas.height + circle.radius; //When circle goes to top it resets to the bottom 
             } 
 
-            if(topEdge > canvas.height + circle.radius){
-                circle.y = 0; //When circle goes to bottom it resets to the top 
+            if(topEdge > 0){
+                circle.y = canvas.height + circle.radius; //When circle goes to bottom it resets to the top 
 
             } 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
